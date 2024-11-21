@@ -1,0 +1,44 @@
+{
+  "name": "algorithm-book",
+  "version": "0.0.0",
+  "description": "algorithm",
+  "homepage": "https://imafee.github.io/algorithm",
+  "bugs": {
+    "url": "https://github.com/imafee/algorithm/issues",
+    "email": "imafee@outlook.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "imafee",
+    "email": "imafee@outlook.com",
+    "url": "https://imafee.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imafee/algorithm.git"
+  },
+  "private": true,
+  "type": "module",
+  "config": {
+    "vitepress": {
+      "title": "algorithm-book",
+      "description": "A book about algorithm related.",
+      "repourl": "//github.com/imafee/algorithm"
+    }
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "jest": "^29.7.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.4.1"
+  },
+  "dependencies": {
+    "vue": "^3.5.11"
+  }
+}
