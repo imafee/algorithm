@@ -4,7 +4,7 @@
 
 - 线性表 Linear List
   - 数组 Array
-  - 链表 Link List:单链表\双向链表\循环链表
+  - 链表 LinkedList:单链表\双向链表\循环链表
   - 向量 Vector
 
 ## 抽象数据类型

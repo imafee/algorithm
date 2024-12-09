@@ -9,16 +9,22 @@
   - 快速幂
   - 汉诺塔
   - 斐波那契数列
-- 排序
-  - 冒泡排序 Bubble Sort
-  - 选择排序 Selection Sort
-  - 插入排序 Insertion Sort
-  - 快速排序 Quick Sort
-  - 归并排序 Merge Sort
-  - 堆排序 Heap Sort
-  - 希尔排序 Shell Sort
-  - 计数排序 Counting Sort
-  - 基数排序 Radix Sort
+- 排序算法
+  - 比较排序
+    - 插入排序 Insertion Sort
+      - 直接插入排序
+      - 希尔排序 Shell Sort
+    - 选择排序 Selection Sort
+      - 简单选择排序
+      - 堆排序 Heap Sort
+    - 交换排序 Exchange Sort
+      - 冒泡排序 Bubble Sort
+      - 快速排序 Quick Sort
+    - 归并排序 Merge Sort
+  - 非比较排序
+    - 桶排序
+    - 计数排序 Counting Sort
+    - 基数排序 Radix Sort
 - 搜索/查找
   - 线性搜索 Linear Search
   - 二分搜索 Binary Search
